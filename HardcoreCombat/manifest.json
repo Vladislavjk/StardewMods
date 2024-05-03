@@ -1,0 +1,10 @@
+﻿{
+  "Name": "HardcoreCombat",
+  "Author": "jeWel",
+  "Version": "1.0.1",
+  "Description": "test",
+  "UniqueID": "jeWel.HardcoreCombat",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:???" ],
+  "EntryDll": "HardcoreCombat.dll"
+}

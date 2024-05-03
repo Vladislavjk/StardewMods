@@ -1,0 +1,14 @@
+﻿{
+  "settings.mainTitle": "Alterar a dificuldade",
+  "settings.difficultyTitle": "Dificuldade",
+  "settings.chillDifficultyBuffText": "Relaxe e mate todo mundo, você é deus (+100 de defesa, +10 de imunidade, x5 de dano)",
+  "settings.easyDifficultyBuffText": "Um pouco mais fácil de jogar (+5 de defesa, +20% de dano)",
+  "settings.chillDifficultyTitle": "Muito fácil",
+  "settings.easyDifficultyTitle": "Fácil",
+  "settings.normalDifficultyTitle": "Normais",
+  "settings.hardDifficultyTitle": "Duro",
+  "settings.advancedDifficultyTitle": "Avançado",
+  "settings.expertDifficultyTitle": "Perito",
+  "settings.masterDifficultyTitle": "Mestra",
+  "settings.legendaryDifficultyTitle": "Lendário"
+}

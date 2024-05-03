@@ -1,0 +1,14 @@
+﻿{
+  "settings.mainTitle": "难度变化",
+  "settings.difficultyTitle": "难度",
+  "settings.chillDifficultyBuffText": "放轻松，大开杀戒，你就是神（防御+100，免疫+10，伤害×5）。",
+  "settings.easyDifficultyBuffText": "略微容易上手（防御 +5，伤害 +20%）。",
+  "settings.chillDifficultyTitle": "非常简单",
+  "settings.easyDifficultyTitle": "简单",
+  "settings.normalDifficultyTitle": "正常",
+  "settings.hardDifficultyTitle": "硬质",
+  "settings.advancedDifficultyTitle": "高级",
+  "settings.expertDifficultyTitle": "专家",
+  "settings.masterDifficultyTitle": "大师",
+  "settings.legendaryDifficultyTitle": "传奇"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "settings.mainTitle": "Cambiar dificultad",
+  "settings.difficultyTitle": "Dificultad",
+  "settings.chillDifficultyBuffText": "Relájate y mata a todos, eres dios (+100 defensa, +10 inmunidad, x5 daño)",
+  "settings.easyDifficultyBuffText": "Ligeramente más fácil de jugar (+5 defensa, +20% daño)",
+  "settings.chillDifficultyTitle": "Muy fácil",
+  "settings.easyDifficultyTitle": "Fácil",
+  "settings.normalDifficultyTitle": "Normal",
+  "settings.hardDifficultyTitle": "Duro",
+  "settings.advancedDifficultyTitle": "Avanzado",
+  "settings.expertDifficultyTitle": "Experto",
+  "settings.masterDifficultyTitle": "Master",
+  "settings.legendaryDifficultyTitle": "Legendario"
+}

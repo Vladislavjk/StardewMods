@@ -1,0 +1,14 @@
+﻿{
+  "settings.mainTitle": "Change difficulty",
+  "settings.difficultyTitle": "Difficulty",
+  "settings.chillDifficultyBuffText": "Relax and kill everyone, you are god (+100 defense, +10 immunity, x5 damage)",
+  "settings.easyDifficultyBuffText": "Slightly easier to play (+5 defense, +20% damage)",
+  "settings.chillDifficultyTitle": "Very Easy",
+  "settings.easyDifficultyTitle": "Easy",
+  "settings.normalDifficultyTitle": "Normal",
+  "settings.hardDifficultyTitle": "Hard",
+  "settings.advancedDifficultyTitle": "Advanced",
+  "settings.expertDifficultyTitle": "Expert",
+  "settings.masterDifficultyTitle": "Master",
+  "settings.legendaryDifficultyTitle": "Legendary"
+}
