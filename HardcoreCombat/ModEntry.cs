@@ -38,7 +38,7 @@ namespace HardcoreCombat
                         }
                     );
 
-        public override void Entry(IModHelper helper)
+        public override void Entry(IModHelper helper) // фикс бага чтобы на 1мс не было x5 урона
         {
             config = helper.ReadConfig<HardcoreCombatConfig>();
             config.getCombatDifficultiesRanges(out difficultiesRanges);
@@ -75,7 +75,7 @@ namespace HardcoreCombat
                 Game1.player.applyBuff(chillDifficultyBuff);
                 Game1.player.applyBuff(Buff.yobaBlessing);
             }
-            else
+            else if (!chillBuffDisabled)
             {
                 chillDifficultyBuff.millisecondsDuration = 1;
                 Game1.player.applyBuff(chillDifficultyBuff);
@@ -130,6 +130,51 @@ namespace HardcoreCombat
                 Game1.player.applyBuff("14");
                 Game1.player.applyBuff("12");
             }
+
+            if (config.slimedDebuff)
+            {
+                Game1.player.applyBuff(Buff.slimed);
+            }
+
+            if (config.darknessDebuff)
+            {
+                Game1.player.applyBuff(Buff.darkness);
+            }
+
+            if (config.weaknessDebuff)
+            {
+                Game1.player.applyBuff(Buff.weakness);
+            }
+
+            if (config.monsterMuskDebuff)
+            {
+                Game1.player.applyBuff(Buff.spawnMonsters);
+            }
+
+            if (config.nauseatedDebuff)
+            {
+                Game1.player.applyBuff(Buff.nauseous);
+            }
+
+            if (config.tipsyDebuff)
+            {
+                Game1.player.applyBuff(Buff.tipsy);
+            }
+
+            if (config.burntDebuff)
+            {
+                Game1.player.applyBuff("12");
+            }
+
+            if (config.spookedDebuff)
+            {
+                Game1.player.applyBuff(Buff.fear);
+            }
+
+            if (config.jinxedDebuff)
+            {
+                Game1.player.applyBuff("14");
+            }
         }
 
         private void onGameLoaded(object sender, GameLaunchedEventArgs e)
@@ -171,6 +216,73 @@ namespace HardcoreCombat
                     },
                     allowedValues: new string[] { translations[4], translations[5], translations[6],
                         translations[7], translations[8], translations[9], translations[10], translations[11] }
+                );
+
+                configMenuApi.AddSectionTitle(
+                    this.ModManifest,
+                    () => translations[12]);
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[13],
+                    getValue: () => this.config.slimedDebuff,
+                    setValue: value => this.config.slimedDebuff = value
+                );
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[14],
+                    getValue: () => this.config.darknessDebuff,
+                    setValue: value => this.config.darknessDebuff = value
+                );
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[15],
+                    getValue: () => this.config.weaknessDebuff,
+                    setValue: value => this.config.weaknessDebuff = value
+                );
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[16],
+                    getValue: () => this.config.monsterMuskDebuff,
+                    setValue: value => this.config.monsterMuskDebuff = value
+                );
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[17],
+                    getValue: () => this.config.nauseatedDebuff,
+                    setValue: value => this.config.nauseatedDebuff = value
+                );
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[18],
+                    getValue: () => this.config.tipsyDebuff,
+                    setValue: value => this.config.tipsyDebuff = value
+                );
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[19],
+                    getValue: () => this.config.burntDebuff,
+                    setValue: value => this.config.burntDebuff = value
+                );
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[20],
+                    getValue: () => this.config.spookedDebuff,
+                    setValue: value => this.config.spookedDebuff = value
+                );
+
+                configMenuApi.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => translations[21],
+                    getValue: () => this.config.jinxedDebuff,
+                    setValue: value => this.config.jinxedDebuff = value
                 );
             }
             else

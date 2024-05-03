@@ -10,5 +10,15 @@
   "settings.advancedDifficultyTitle": "高级",
   "settings.expertDifficultyTitle": "专家",
   "settings.masterDifficultyTitle": "大师",
-  "settings.legendaryDifficultyTitle": "传奇"
+  "settings.legendaryDifficultyTitle": "传奇",
+  "settings.optionalDebuffsTitle": "添加可选的减益效果",
+  "settings.slimedDebuffTitle": "黏滑的 (-4速度)",
+  "settings.darknessDebuffTitle": "黑暗",
+  "settings.weaknessDebuffTitle": "虚弱 (-20攻击)",
+  "settings.monsterMuskDebuffTitle": "怪兽香水",
+  "settings.nauseatedDebuffTitle": "恶心",
+  "settings.tipsyDebuffTitle": "眩晕 (-1速度)",
+  "settings.burntDebuffTitle": "烧伤 (-3攻击、-3防御、-2速度)",
+  "settings.spookedDebuffTitle": "受惊吓 (-8攻击)",
+  "settings.jinxedDebuffTitle": "倒霉的 (-8防御)"
 }

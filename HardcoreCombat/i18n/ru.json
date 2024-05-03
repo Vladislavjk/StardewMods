@@ -10,5 +10,15 @@
   "settings.advancedDifficultyTitle": "Продвинутая",
   "settings.expertDifficultyTitle": "Эксперт",
   "settings.masterDifficultyTitle": "Мастер",
-  "settings.legendaryDifficultyTitle": "Легендарная"
+  "settings.legendaryDifficultyTitle": "Легендарная",
+  "settings.optionalDebuffsTitle": "Добавить дополнительные дебаффы",
+  "settings.slimedDebuffTitle": "Слизь (-4 скорости)",
+  "settings.darknessDebuffTitle": "Тьма",
+  "settings.weaknessDebuffTitle": "Слабость (-20 атаки)",
+  "settings.monsterMuskDebuffTitle": "Бонус монстрячего мускуса",
+  "settings.nauseatedDebuffTitle": "Тошнота",
+  "settings.tipsyDebuffTitle": "Опьянение (-1 скорость)",
+  "settings.burntDebuffTitle": "Ожог (-3 атаки, -3 защиты, -2 скорости)",
+  "settings.spookedDebuffTitle": "Испуг (-8 атаки)",
+  "settings.jinxedDebuffTitle": "Сглаз (-8 защиты)"
 }

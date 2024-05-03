@@ -10,5 +10,15 @@
   "settings.advancedDifficultyTitle": "Avançado",
   "settings.expertDifficultyTitle": "Perito",
   "settings.masterDifficultyTitle": "Mestra",
-  "settings.legendaryDifficultyTitle": "Lendário"
+  "settings.legendaryDifficultyTitle": "Lendário",
+  "settings.optionalDebuffsTitle": "Adicionar penalidades opcionais",
+  "settings.slimedDebuffTitle": "Coberto de gosma (-4 velocidade)",
+  "settings.darknessDebuffTitle": "Escuridão",
+  "settings.weaknessDebuffTitle": "Fraqueza (-20 de ataque)",
+  "settings.monsterMuskDebuffTitle": "Almíscar de Monstro",
+  "settings.nauseatedDebuffTitle": "Enjoado",
+  "settings.tipsyDebuffTitle": "Bêbado (-1 velocidade)",
+  "settings.burntDebuffTitle": "Queimado (-3 ataque, -3 defesa, -2 velocidade)",
+  "settings.spookedDebuffTitle": "Assustado (-8 de ataque)",
+  "settings.jinxedDebuffTitle": "Amaldiçoado (-8 defesa)"
 }
